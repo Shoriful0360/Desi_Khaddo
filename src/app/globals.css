@@ -3,6 +3,16 @@
 @plugin "daisyui";
 @custom-variant dark (&:is(.dark *));
 
+.nature{
+  color: #89C74A;
+}
+.bgNature{
+  background-color: #89c74a;
+}
+.secondary{
+  color: #e93b29;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -43,15 +53,7 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-.nature{
-  color: #89C74A;
-}
-.bgNature{
-  background-color: #89c74a;
-}
-.secondary{
-  color: #e93b29;
-}
+
 
 :root {
   --radius: 0.625rem;
